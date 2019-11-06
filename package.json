@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-bruno",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config for bruno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbruno/eslint-config-bruno.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Zach Bruno <zachcbruno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zbruno/eslint-config-bruno/issues"
+  },
+  "homepage": "https://github.com/zbruno/eslint-config-bruno",
+  "peerDependencies": {
+    "babel-eslint": ">=8.2.2",
+    "eslint": ">=5.0.0",
+    "eslint-config-airbnb": ">=16.1.0",
+    "eslint-plugin-babel": ">=5.0.0",
+    "eslint-plugin-import": ">=2.9.0",
+    "eslint-plugin-jsx-a11y": ">=6.0.3",
+    "eslint-plugin-react": ">=7.8.2"
+  }
+}
