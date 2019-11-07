@@ -20,7 +20,7 @@
     "url": "https://github.com/zbruno/eslint-config-brunono/issues"
   },
   "homepage": "https://github.com/zbruno/eslint-config-brunono",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": ">=8.2.2",
     "eslint": ">=5.0.0",
     "eslint-config-airbnb": ">=16.1.0",
@@ -29,6 +29,6 @@
     "eslint-plugin-jest": "^21.27.2",
     "eslint-plugin-jsx-a11y": ">=6.0.3",
     "eslint-plugin-react": ">=7.8.2",
-    "eslint-plugin-react-hooks": "^2.2.0"
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }

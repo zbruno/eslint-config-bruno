@@ -1,11 +1,11 @@
-# eslint-config-curology
+# eslint-config-brunono
 An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-configs).
 
 ## Install
 Run
 
 ```
-yarn add eslint-config-bruno --dev
+yarn add eslint-config-brunono --dev
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ by adding this to your `.eslintrc` file:
 
 ```
 {
-  "extends": "bruno"
+  "extends": "brunono"
 }
 ```
