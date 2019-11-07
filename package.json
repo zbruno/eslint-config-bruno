@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brunono",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint config for Me",
   "main": "index.js",
   "scripts": {
