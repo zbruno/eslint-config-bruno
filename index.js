@@ -2,6 +2,10 @@ module.exports = {
   extends: ["airbnb"],
   parser: "babel-eslint",
   plugins: ["react", "babel", "jest", "jsx-a11y", "import"],
+  globals: {
+    "document": false,
+    "window": false
+  },
   rules: {
     "arrow-body-style": [2, "as-needed"],
     "arrow-parens": [2, "as-needed"],
