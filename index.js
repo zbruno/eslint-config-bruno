@@ -1,9 +1,7 @@
 module.exports = {
-  extends: [
-    "airbnb",
-  ],
+  extends: ["airbnb"],
   parser: "babel-eslint",
-  plugins: ["react", "babel"],
+  plugins: ["react", "babel", "jest", "jsx-a11y", "import"],
   rules: {
     "arrow-body-style": [2, "as-needed"],
     "arrow-parens": [2, "as-needed"],
@@ -33,6 +31,7 @@ module.exports = {
     "no-underscore-dangle": 1,
     "object-curly-newline": 1,
     "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+    "react/destructuring-assignment": "warning",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-fragments": [2, "element"],
     "react/jsx-key": 2,
