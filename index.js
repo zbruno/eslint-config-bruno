@@ -4,7 +4,8 @@ module.exports = {
   plugins: ["react", "babel", "jest", "jsx-a11y", "import", "react-hooks"],
   globals: {
     "document": false,
-    "window": false
+    "window": false,
+    "path": false
   },
   rules: {
     "arrow-body-style": [2, "as-needed"],
