@@ -35,7 +35,7 @@ module.exports = {
     "no-underscore-dangle": 1,
     "object-curly-newline": 1,
     "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
-    "react/destructuring-assignment": "warning",
+    "react/destructuring-assignment": 1,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-fragments": [2, "element"],
     "react/jsx-key": 2,
