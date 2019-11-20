@@ -8,6 +8,7 @@ module.exports = {
     path: false,
     test: false,
     expect: false,
+    describe: false,
   },
   rules: {
     'arrow-body-style': [2, 'as-needed'],
