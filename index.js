@@ -6,6 +6,8 @@ module.exports = {
     document: false,
     window: false,
     path: false,
+    test: false,
+    expect: false,
   },
   rules: {
     'arrow-body-style': [2, 'as-needed'],
@@ -58,7 +60,9 @@ module.exports = {
     'react/no-array-index-key': 1,
     'react/require-default-props': 2,
     'react/sort-comp': 0,
+    'react/static-property-placement': ['error', 'static public field'],
     'space-before-function-paren': 0,
+    'react/state-in-constructor': [1, 'never'],
   },
   settings: {
     'import/extensions': ['.js', '.jsx'],
