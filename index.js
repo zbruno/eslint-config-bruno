@@ -9,7 +9,7 @@ module.exports = {
     test: false,
     expect: false,
     describe: false,
-    jest,
+    jest: false,
   },
   rules: {
     'arrow-body-style': [2, 'as-needed'],
