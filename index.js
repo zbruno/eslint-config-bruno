@@ -9,6 +9,7 @@ module.exports = {
     test: false,
     expect: false,
     describe: false,
+    jest,
   },
   rules: {
     'arrow-body-style': [2, 'as-needed'],
@@ -64,6 +65,7 @@ module.exports = {
     'react/static-property-placement': ['error', 'static public field'],
     'space-before-function-paren': 0,
     'react/state-in-constructor': [1, 'never'],
+    'react/jsx-props-no-spreading': 0,
   },
   settings: {
     'import/extensions': ['.js', '.jsx'],
