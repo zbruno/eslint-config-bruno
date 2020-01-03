@@ -66,6 +66,7 @@ module.exports = {
     'space-before-function-paren': 0,
     'react/state-in-constructor': [1, 'never'],
     'react/jsx-props-no-spreading': 0,
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
   },
   settings: {
     'import/extensions': ['.js', '.jsx'],
