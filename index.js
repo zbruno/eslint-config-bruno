@@ -57,7 +57,7 @@ module.exports = {
     'react/jsx-filename-extension': [1, {
       extensions: ['.js', '.jsx'],
     }],
-    'react/jsx-fragments': [2, 'element'],
+    'react/jsx-fragments': [2, 'syntax'],
     'react/jsx-key': 2,
     'react/no-array-index-key': 1,
     'react/require-default-props': 2,
@@ -67,6 +67,7 @@ module.exports = {
     'react/state-in-constructor': [1, 'never'],
     'react/jsx-props-no-spreading': 0,
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+    'no-param-reassign': 0,
   },
   settings: {
     'import/extensions': ['.js', '.jsx'],
